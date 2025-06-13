@@ -370,7 +370,7 @@ INSERT INTO assignments (id, course_id, title, description, due_date, created_at
         (3, 3, 'Array Implementation', 'Implement an array-based solution.',  '2025-06-20 23:59:00', now()),
         (4, 4, 'Algorithm Analysis', 'Analyze a sorting algorithm.',  '2025-06-25 23:59:00', now()),
         (5, 5, 'HTML Form Creation', 'Build a simple HTML form.',  '2025-06-28 23:59:00', now()),
-        (6, 6, 'CSS Styling Task', 'Style a webpage with CSS.',  '2025-06-15 23:59:00', now()),
+        (6, 6, 'CSS Styling Task', 'Style a webpage with CSS.',  '2025-06-23 23:59:00', now()),
         (7, 8, 'Array Operations Task', 'Perform array operations.',  '2025-06-20 23:59:00', now()),
         (8, 9, 'Stack Implementation', 'Implement a stack.',  '2025-06-25 23:59:00', now());
 

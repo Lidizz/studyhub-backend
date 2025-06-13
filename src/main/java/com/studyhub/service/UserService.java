@@ -43,7 +43,7 @@ public class UserService {
         // Convert DTO to entity for registration
         User user = userMapper.toEntity(userDTO);
 
-        // Use the provided password if present, otherwise set a temporary one
+        // Use the provided password if present, otherwise set a temporary one (for development)
         String password = userDTO.getPassword() != null ? userDTO.getPassword() : "tempPass";
         user.setPassword(passwordEncoder.encode(password));
 
